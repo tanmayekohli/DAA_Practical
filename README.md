@@ -6,15 +6,29 @@ DAA Practical's repository.
 
 # Question 1: Red- Black Tree
   
+  
+  
   Complexity Analysis:
+
 ->  Search:- O(log n)
+
 ->  Insert:-	O(log n)
+
 ->  Delete:-	O(log n)
   
+
+
+  
+  
   <> Applications <>
+
+
  -> Most of the self-balancing BST library functions like map and set in C++ (OR TreeSet and TreeMap in Java) use Red-Black Tree.
+
  -> It is used to implement CPU Scheduling Linux. Completely Fair Scheduler uses it.
+
  -> Besides they are used in the K-mean clustering algorithm for reducing time complexity.
+
  -> Moreover, MySQL also uses the Red-Black tree for indexes on tables.
 
 
@@ -22,28 +36,42 @@ DAA Practical's repository.
 
 # Question 2: Kruskal's Minimum Spanning Tree
  
+ 
  Complexity Analysis:
-        -> Best Case:O(N logE) 
-        -> Worst Case:O(ElogE) or O(ElogV)
-        -> Average Case:O(ElogE)
+       
+-> Best Case:O(N logE) 
+        
+-> Worst Case:O(ElogE) or O(ElogV)
+        
+-> Average Case:O(ElogE)
   
   
- Applications:
-      Spanning tree is basically used to find a minimum path to connect all nodes in a graph. 
-      Common application of spanning trees are −
-            -> Civil Network Planning
-            -> Computer Network Routing Protocol
-            -> Cluster Analysis
+ <> Applications <>
+     
+ Spanning tree is basically used to find a minimum path to connect all nodes in a graph. 
+ Common application of spanning trees are −
+            
+-> Civil Network Planning
+           
+-> Computer Network Routing Protocol
+            
+-> Cluster Analysis
  
  
- #Question 3: 
- ##Bubble
-  Complexity:
- a) Worst and Average Case Time Complexity: O(n*n). Worst case occurs when array is reverse sorted.
+ # Question 3: 
+ ## Bubble
+ 
+Complexity:
+ 
+a) Worst and Average Case Time Complexity: O(n*n). Worst case occurs when array is reverse sorted.
+
  b) Best Case Time Complexity: O(n). Best case occurs when array is already sorted.
+
  Application of Bubble Sort:
+
  a)Due to its simplicity, bubble sort is often used to introduce the concept of a sorting algorithm.
- b)In computer graphics it is popular for its capability to detect a very small error (like swap of just two elements) in almost-sorted arrays and fix it with just linear complexity (2n). 
+ 
+b)In computer graphics it is popular for its capability to detect a very small error (like swap of just two elements) in almost-sorted arrays and fix it with just linear complexity (2n). 
  
  ##Selection
  Complexity:
